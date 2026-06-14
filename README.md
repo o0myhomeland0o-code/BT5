@@ -12,7 +12,7 @@
 
 Trước khi Docker xuất hiện, kiến trúc ảo hóa truyền thống phụ thuộc hoàn toàn vào **Máy ảo (Virtual Machines - VM)**. Mỗi một VM đòi hỏi phải gánh một Hệ điều hành khách (Guest OS) hoàn chỉnh chạy trên nền của Hypervisor, dẫn đến việc lãng phí một lượng lớn tài nguyên RAM, CPU, dung lượng lưu trữ, và tốc độ khởi động rất chậm (vài phút).
 
-Docker giải quyết triệt để vấn đề này nhờ công nghệ ảo hóa ở cấp độ hệ điều hành (OS-level virtualization). Thay vì cài đặt một OS mới, Docker **chia sẻ chung nhân (Kernel)** của Hệ điều hành máy chủ (Host OS) thông qua các tính năng cốt lõi của Linux như `Namespaces` (cách ly tiến trình, mạng, người dùng) và `Cgroups` (giới hạn tài nguyên phần cứng). Mỗi Container chỉ đóng gói duy nhất mã nguồn ứng dụng, các thư viện phụ thuộc (Dependencies) và các file cấu hình tối thiểu. Điều này giúp các Container khởi động chỉ trong vài giây, dung lượng siêu nhẹ (chỉ vài chục MB) và đạt hiệu suất xử lý gần như tương đương với việc chạy trực tiếp trên máy thật.
+Docker giải quyết triệt để vấn đề này nhờ công nghệ ảo hóa ở cấp độ hệ điều hành (OS-level virtualization). Thay vì cài đặt một OS mới, Docker **chia sẻ chung nhân (Kernel)** của Hệ điều hành máy chủ (Host OS) thông qua các tính năng cốt lõi của Linux như `Namespaces` (cách ly tiến trình, mạng, người dùng) và `Cgroups` (giới hạn tài nguyên phần cứng). Mỗi Container chỉ đóng gói duy nhất mã nguồn ứng dụng, các thư viện phụ thuộc (Dependencies) và các file cấu hình tối thiểu. Điều này giúp các  khởi động chỉ trong vài giây, dung lượng siêu nhẹ (chỉ vài chục MB) và đạt hiệu suất xử lý gần như tương đương với việc chạy trực tiếp trên máy thật.
 
 ### 2. Từ điển các Keyword cốt lõi trong tệp cấu hình `docker-compose.yml`
 File `docker-compose.yml` định dạng cú pháp YAML đóng vai trò cấu trúc và quản lý một tập hợp nhiều Container (Multi-container Application). Dưới đây là danh sách tường minh các từ khóa, ý nghĩa kỹ thuật sâu và ví dụ thực tế:
@@ -314,7 +314,8 @@ Lệnh thực hiện:
  ``` Bash
   docker save -o backup_monitor_system.tar mariadb:10.11 influxdb:2.7 nodered/node-red:latest nginx:alpine monitor_flask_api:latest
  ```
-<img width="1903" height="1012" alt="image" src="https://github.com/user-attachments/assets/c124d93d-0932-4370-b13b-301cb5177303" />
+
+<img width="1920" height="1080" alt="bt55" src="https://github.com/user-attachments/assets/8b1bda24-f8e1-4f8d-b230-461bab49714f" />
 
 
 # 2. Gỡ bỏ hoàn toàn mọi Container và Image cục bộ để giả lập máy chủ trống
