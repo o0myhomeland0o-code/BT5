@@ -341,6 +341,6 @@ Lệnh thực hiện:
   docker load -i backup_monitor_system.tar
   docker-compose up -d
  ```
-<img width="1283" height="165" alt="image" src="https://github.com/user-attachments/assets/01879683-da5b-4728-b745-8bd59fdb1180" />
+<img width="1022" height="362" alt="image" src="https://github.com/user-attachments/assets/ccc9b1c6-979e-4fd1-8b68-e90e5c6ae8b2" />
 
 <img width="1420" height="231" alt="image" src="https://github.com/user-attachments/assets/63d9274f-c8b2-4e4f-8db2-efb6922e5dd7" />
