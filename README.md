@@ -326,10 +326,10 @@ Lệnh thực hiện:
   docker-compose down
   docker rmi $(docker images -q) --force
  ```
-<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/d6afaa69-7040-47be-9c34-5981118b5a30" />
 
-<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/77c60de2-da38-4c41-8a68-e4e5bf694d63" />
+<img width="1470" height="702" alt="2 1" src="https://github.com/user-attachments/assets/3d270380-2601-452c-b492-12513e3f181a" />
 
+<img width="1475" height="705" alt="check" src="https://github.com/user-attachments/assets/46370f29-5c69-4d86-a9d3-eda35fe7a93b" />
 
 # 3. Nạp dữ liệu khôi phục hệ thống từ file nén vật lý không cần Internet
 
@@ -343,4 +343,3 @@ Lệnh thực hiện:
  ```
 <img width="1022" height="362" alt="image" src="https://github.com/user-attachments/assets/ccc9b1c6-979e-4fd1-8b68-e90e5c6ae8b2" />
 
-<img width="1420" height="231" alt="image" src="https://github.com/user-attachments/assets/63d9274f-c8b2-4e4f-8db2-efb6922e5dd7" />
