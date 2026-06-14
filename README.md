@@ -180,7 +180,7 @@ Lệnh chạy: docker-compose up -d
 
 Lệnh thực hiện: docker ps -a
 
-<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/35a22574-5eb4-4158-97fb-a1b95a4db18b" />
+<img width="1474" height="702" alt="uP" src="https://github.com/user-attachments/assets/26a4e5d4-bfe4-4c9e-8ce7-ab500b8bc838" />
 
 
 ## 3. Thành phần Mã nguồn Backend Flask API (Thư mục ./api)
