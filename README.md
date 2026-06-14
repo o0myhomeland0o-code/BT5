@@ -1,6 +1,6 @@
 # BT5 : TRIỂN KHAI HỆ THỐNG GIÁM SÁT REALTIME VÀ CẢNH BÁO TỰ ĐỘNG QUA TELEGRAM BOT BẰNG DOCKER COMPOSE  
-* **Sinh viên thực hiện:** [Phạm Duy Tiến Minh]  
-* **MSSV:** [K225480106048]  
+* **Họ tên:** Phạm Duy Tiến Minh
+* **MSSV:** K225480106048 
 * **Lớp:** K58KTP  
 
 ---
