@@ -65,14 +65,14 @@ docker-compose up -d
  ```
 ## CHƯƠNG II: KIẾN TRÚC MÃ NGUỒN CẤU THÀNH HỆ THỐNG GIÁM SÁT REALTIME
 ## 1. Sơ đồ luồng dữ liệu kiến trúc hệ thống (Dataflow Architecture)
-[Nguồn dữ liệu động (Gold/Weather)] 
-           │ (HTTP Get / 5s)
-           ▼
-     [ NODE-RED ] ───(Nếu dữ liệu bất thường)───► [ Telegram Bot API ] ──► [ Nhóm 3 Thành Viên ]
-           │
-           ├───► [ MariaDB (Lưu giá trị tức thời) ] ◄─── [ Flask API ] ◄─── [ JS Fetch API / 2s ] ──┐
-           │                                                                                           ▼
-           └───► [ Grafana Dashboard qua thẻ IFRAME ]
+[Nguồn dữ liệu động (Gold/Weather)]   
+           │ (HTTP Get / 5s)  
+           ▼  
+     [ NODE-RED ] ───(Nếu dữ liệu bất thường)───► [ Telegram Bot API ] ──► [ Nhóm 3 Thành Viên ]  
+           │  
+           ├───► [ MariaDB (Lưu giá trị tức thời) ] ◄─── [ Flask API ] ◄─── [ JS Fetch API / 2s ] ──┐  
+           │                                                                                        ▼  
+           └───► [ Grafana Dashboard qua thẻ IFRAME ]  
 
 <img width="1921" height="1080" alt="giavang" src="https://github.com/user-attachments/assets/ba2191ef-7e23-4c92-9aa4-fe40682ba7f2" />
 
