@@ -73,9 +73,9 @@ docker-compose up -d
            ├───► [ MariaDB (Lưu giá trị tức thời) ] ◄─── [ Flask API ] ◄─── [ JS Fetch API / 2s ] ──┐
            │                                                                                           ▼
            └───► [ Grafana Dashboard qua thẻ IFRAME ]
-           
-   <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7c183671-ba98-4833-b298-59bd0600c71d" />
-      
+
+<img width="1921" height="1080" alt="giavang" src="https://github.com/user-attachments/assets/ba2191ef-7e23-4c92-9aa4-fe40682ba7f2" />
+
 ## 2. Tệp điều phối trung tâm: docker-compose.yml
 YAMLversion: '3.8'
 
@@ -240,7 +240,6 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
  ```
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c74c7e53-d305-4097-b472-f6411b3a871d" />
 
 ## 4. Thành phần Giao diện Ứng dụng Frontend (Thư mục ./frontend)File frontend/index.htmlHTML<!DOCTYPE html>
  ```
@@ -294,13 +293,14 @@ if __name__ == '__main__':
 </body>
 </html>
  ```
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/73599593-58ed-48a6-af1d-630c9ab336be" />
+
+<img width="1921" height="1080" alt="realtime" src="https://github.com/user-attachments/assets/96a076a4-2e03-4f24-8eb4-784ae9ce5fd4" />
 
 Vì dữ liệu giá vàng chưa vượt ngưỡng thông báo về telegram nên em thực hiện cách test nhỏ 
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/02e0f95c-938a-449c-b10d-f690b769ea59" />
+<img width="1921" height="1080" alt="giavang" src="https://github.com/user-attachments/assets/beb4e0ea-a214-4436-b923-e4f0a5dea9c6" />
 
-<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/d9ddd0e2-baaa-4313-96d6-d6ac828d0221" />
+<img width="1921" height="1080" alt="canhbao" src="https://github.com/user-attachments/assets/34efecf9-2b57-4e8c-8025-0e58c66885ce" />
 
 ## CHƯƠNG III: QUY TRÌNH ĐÓNG GÓI VÀ KHÔI PHỤC HỆ THỐNG TRONG MÔI TRƯỜNG OFFLINE
 Để đáp ứng yêu cầu kiểm thử tính cơ động của ứng dụng khi triển khai trên hệ thống máy chủ vật lý bị cô lập hoàn toàn, không có kết nối Internet, kịch bản đóng gói và khôi phục được triển khai và minh chứng qua các bước:
