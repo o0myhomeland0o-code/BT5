@@ -58,7 +58,7 @@ Khi ứng dụng đã qua các bước kiểm thử (test) đạt trạng thái 
 docker load -i deployment_offline_package.tar
 
  ```
- * **Bước 4 (Khởi chạy ứng dụng diện rộng):** Di chuyển trực tiếp Terminal vào vị trí đặt file docker-compose.yml trên máy chủ thật và chạy lệnh kích hoạt hệ thống:
+ * **Bước 4 (Khởi chạy ứng dụng diện rộng):** Di chuyển trực tiếp  vào vị trí đặt file docker-compose.yml trên máy chủ thật và chạy lệnh kích hoạt hệ thống:
 
  ``` Bash
 docker-compose up -d
@@ -174,7 +174,7 @@ networks:
 
 Lệnh chạy: docker-compose up -d
 
-<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/4fb0c520-7795-4b4c-be1e-6ea5f6317734" />
+<img width="1467" height="701" alt="terminal" src="https://github.com/user-attachments/assets/10f78b7b-f934-4818-a002-02281322bfd4" />
 
 # Danh sách bảng tiến trình thể hiện rõ tên dịch vụ, ID container và các cổng ánh xạ tương ứng ra bên ngoài máy host ở trạng thái "Up".
 
